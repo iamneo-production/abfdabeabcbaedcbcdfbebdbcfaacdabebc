@@ -1,6 +1,6 @@
 const { MongoClient, ObjectID } = require('mongodb');
 
-const dbName = 'mydatabase'; // Change this to your database name
+const dbName = 'mydatabase';
 const url = 'mongodb://localhost:27017';
 
 class User {
